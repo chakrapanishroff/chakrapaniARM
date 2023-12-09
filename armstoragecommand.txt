@@ -1,0 +1,4 @@
+
+az deployment group create  --resource-group "ODL-az-1170032" --template-file storagedemoreusable.json --parameters storageName=crtrlstr43sewdr333
+
+az deployment group create  --resource-group "ODL-az-1170032" --template-file storagedemoreusable.json --parameters storageSKU=Standard_GRS storageName=crtrlstr43sewdr
